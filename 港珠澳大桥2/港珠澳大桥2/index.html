@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="renderer" content="webkit">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge" />
+    <title>@所有人，关于港珠澳大桥的问题，你能答对多少？</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullpage.min.css">
+</head>
+<body>
+
+<!-- 加载中的图标和进度条 -->
+<div id="loading">
+    <div id="loading_img">
+        <img src="images/loading.gif?v=3">
+        <div id="loading_p">
+            <p>0%</p>
+        </div>
+    </div>
+</div>
+
+<!-- 加载后的完整页（们） -->
+<div id="fullpage">
+    
+    <!-- 1.起始页 -->
+    <div class="section">
+        <!-- 起始页的各种图片 -->
+        <div class="box fm">
+            <div id="fm_logo">
+                <img src="images/fm_logo.png">
+            </div>
+            <div id="fm_bt">
+                <img src="images/fm_bt.png">
+            </div>
+            <!-- <div id="fm_fj">
+                <img src="images/fm_fj.png">
+            </div> -->
+            <div id="fm_start">
+                <img src="images/fm_start.png">
+            </div>
+        </div>
+    </div>
+
+    <!-- 2.答题页 -->
+    <div class="section">
+        <div class="box dt">
+            <div id="dt_logo">
+                <img src="images/fm_logo.png">
+            </div>
+            <div id="dt_bg" style="font-family:FZKaTong-M19S">
+                <img src="images/dt_bg.png">
+                <div id="dt_ts">
+                    <span id="dqts">1</span><span id="zts">/10</span>
+                </div>
+                <div id="dt_sj">
+                    <span>15s</span>
+                </div>
+                <div id="dt_ct">
+                    <img src="images/dt_djs_k.png">
+                    <div id="dt_djs_l"></div>
+                </div>
+                <div id="dt_t">
+                    <p>2017年，两位中国科学院外籍院士依照《中国科学院章程》等文件正式转为中国科学院院士，其中不包括？</p>
+                </div>
+                <div id="dt_xx">
+                    <ul>
+                        <li class="opa op"><div class="dt_xz_yd"><img src="images/dt_xz_yd.png"></div><p>A.杨振宁</p></li>
+                        <li class="opb op"><div class="dt_xz_yd"><img src="images/dt_xz_yd.png"></div><p>B.杨振宁</p></li>
+                        <li class="opc op"><div class="dt_xz_yd"><img src="images/dt_xz_yd.png"></div><p>C.杨振宁</p></li>
+                        <li class="opd op"><div class="dt_xz_yd"><img src="images/dt_xz_yd.png"></div><p>C.杨振宁</p></li>
+                    </ul>
+                </div>
+                <div id="dt_qd_zz">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 结果页 -->
+    <div class="section">
+        <div class="box dtjg">
+            <div id="dtjg_logo">
+                <img src="images/fm_logo.png">
+            </div>
+            <div id="dtjg_img">
+                <img src="images/dtjg_img1.png">
+                <div id="dtjg_p">
+                    <p>1</p>
+                </div>
+            </div>
+            <div id="dtjg_next">
+                <img src="images/dtjg_next.png">
+            </div>
+        </div>
+    </div>
+
+    <!-- 结语页 -->
+    <div class="section">
+        <div class="box fd">
+            <div id="fd_logo">
+                <img src="images/fm_logo.png">
+            </div>
+            <div id="fd_call">
+                <img src="images/fd_call.png">
+            </div>
+            <div id="fx_btn">
+                <img src="images/fx_btn.png">
+            </div>
+            <div id="fx_box">
+                <div id="fx_pyq">
+                    <img src="images/fx_pyq.png">
+                </div>
+            </div>
+
+            <div id="qr_code">
+                <img src="images/qr_code.jpg">
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- 背景音乐 -->
+<!-- <audio id="aud2" autoplay="autoplay" src="music/bg.mp3" loop="true"></audio>
+ -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/pxloader-all.min.js"></script>
+<script type="text/javascript" src="js/jquery.fullpage.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+<div style="display: none;">
+    <div class="share-img " style="width: 0;height: 0;overflow: hidden; "><img src="images/fenxiang.jpg?v=2"></div>
+    <p class="share-title " style="height:0;overflow: hidden;width: 0; ">关于港珠澳大桥的问题，你能答对多少？</p>
+    <p class="share-substr " style="height:0;overflow: hidden;width: 0; ">来试试吧！</p>
+</div>
+<script type="text/javascript " src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js "></script>
+<script type="text/javascript " src="http://www.xinhuanet.com/global/public/wxShare.js "></script>
+
+<!-- <script>
+    //一般情况下，这样就可以自动播放了，但是一些奇葩iPhone机不可以
+    document.getElementById('aud2').play();
+    //必须在微信Weixin JSAPI的WeixinJSBridgeReady才能生效
+    document.addEventListener("WeixinJSBridgeReady", function () {
+        document.getElementById('aud2').play();
+    }, false);
+</script> -->
+<div style="display:none">
+    <div id="fwl">010020050640000000000000011200000000000000</div>
+    <script type="text/javascript" src=http://webd.home.news.cn/webdig.js?z=1 "></script>
+    <script type="text/javascript ">
+            wd_paramtracker("_wdxid=010020050640000000000000011200000000000000 ")
+    </script>
+    <noscript><img src="http://webd.home.news.cn/1.gif?z=1&_wdxid=010020050640000000000000011200000000000000 " border="0 " /></noscript>
+</div>
+</body>
+</html>
