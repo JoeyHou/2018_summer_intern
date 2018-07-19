@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>护源有我，湿地使者</title>
+    <meta name="MobileOptimized" content="240" />
+    <meta name="apple-touch-fullscreen" content="YES" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <!-- 不允许拨打电话 -->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,  minimum-scale=1.0, maximum-scale=1.0" />
+
+    <script>
+    (function (doc, win) {
+        var docEl = doc.documentElement,
+        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+        recalc = function () {
+          var clientWidth = docEl.clientWidth;
+          if (!clientWidth) return;
+          docEl.style.fontSize = 20 * (clientWidth / 320) + 'px';
+        };
+      if (!doc.addEventListener) return;
+      recalc()
+      win.addEventListener(resizeEvt, recalc, false);
+      doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+    </script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.css">
+    <link href="https://cdn.bootcss.com/video.js/6.2.1/video-js.min.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+  </head>
+
+<body>
+    <div id="wx_pic" style="display:none;">  
+      <img src="http://www.gd.xinhuanet.com/zt15/xhgd_logo.jpg" width="300" height="300" />  
+    </div>
+
+    <!--container-->
+    <div class="containner">
+        <div class="swiper-container swiper1">
+          <div class="swiper-wrapper">
+
+              <!-- 1.封面页 -->
+              <!-- <div class="swiper-slide slide-index">
+                  <div class="cover"></div>
+                  <div class="arrow1 arrowAni"></div>
+              </div> -->
+              <div class="swiper-slide slide-index">
+                  <div class="backIndex backAni">
+
+                  </div>
+                  <div class="cover"></div>
+                  <div class="arrow arrowAni"></div>
+              </div>
+
+            <!-- 1.交付活动现场 -->
+            <div class="swiper-slide slide-photo">
+                <!-- 横向滚动的图片 -->
+                <div class="swiper-container swiper2">
+                      <div class="swiper-wrapper swiper-photos1">
+                          <!-- 由index.js决定内容 -->
+                      </div>
+
+                      <div class="swiper-tips swiper-tips1">
+                          <!-- 由index.js决定内容 -->
+                      </div>
+                      <div class="hand-tips handAni"></div>
+                </div>
+
+                <!-- 顶部的icon -->
+                <div class="icon-top1"></div>
+                <!-- 向上划动的icon -->
+                <div class="arrow arrowAni"></div>
+            </div>
+
+
+            <!-- 2.高原车队 -->
+            <div class="swiper-slide slide-photo">
+                <div class="swiper-container swiper3">
+                      <div class="swiper-wrapper swiper-photos2">
+                            <!-- 由index.js决定内容 -->
+                      </div>
+
+                      <div class="swiper-tips swiper-tips2">
+                          <!-- 由index.js决定内容 -->
+                      </div>
+                      <div class="hand-tips handAni"></div>
+                </div>
+
+                <div class="icon-top2"></div>
+                <div class="arrow arrowAni"></div>
+            </div>
+
+            <!-- 3.可可西里 -->
+            <div class="swiper-slide slide-photo">
+                <div class="swiper-container swiper4">
+                      <div class="swiper-wrapper swiper-photos3">
+                            <!-- 由index.js决定内容 -->
+                      </div>
+
+                      <div class="swiper-tips swiper-tips3">
+                          <!-- 由index.js决定内容 -->
+                      </div>
+                      <div class="hand-tips handAni"></div>
+                </div>
+
+                <div class="icon-top3"></div>
+                <div class="arrow arrowAni"></div>
+            </div>
+
+            <!-- 结尾页 -->
+            <div class="swiper-slide slide-end">
+                <img src="images/end.jpg" class="endJpg"/>
+            </div>
+
+
+          </div>
+
+        </div>
+    </div>
+
+    <!--loading-->
+    <div id="loadingContainer">
+        <div class="loadingBox">
+            <div class="loadingIcon"></div>
+            <div class="loadingText">0%</div>
+        </div>
+    </div>
+
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.js"></script>
+    <script src="https://cdn.bootcss.com/video.js/6.2.1/video.min.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/preloadjs.js"></script>
+    <script src="assets/js/loading.js"></script>
+    <script src="assets/js/weixin.js"></script>
+
+    <script type="text/javascript" src="index.js"></script>
+    <!--微信分享图功能-->  
+    <div class="share-substr" style="display:none"></div>  
+    <script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>  
+    <script src="http://www.xinhuanet.com/global/public/wxShare.js"></script>  
+</body>
+</html>

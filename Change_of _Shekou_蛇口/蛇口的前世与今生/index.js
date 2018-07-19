@@ -119,6 +119,7 @@
 	                paginationType: 'fraction',
 	                onTransitionStart: function onTransitionStart(swiper) {
 	                    handler.handlerTips1(swiper.activeIndex);
+	                    console.log(swiper.activeIndex);
 	                }
 	            });
 
