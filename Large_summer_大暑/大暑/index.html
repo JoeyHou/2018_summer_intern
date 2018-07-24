@@ -1,0 +1,321 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="renderer" content="webkit">
+        <meta content="yes" name="apple-mobile-web-app-capable">
+
+        <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,minimum-scale=1, maximum-scale=1, user-scalable=no" />
+        <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge" />
+        <title>大暑</title>
+        <link rel="stylesheet" type="text/css" href="square-jelly-box.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="animate.css">
+        <link rel="stylesheet" type="text/css" href="jquery.fullPage.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="wx_pic" style="display:none;">  
+            <img src="http://www.gd.xinhuanet.com/zt15/xhgd_logo.jpg" width="300" height="300" />  
+        </div>
+        
+        <!--传播缩略图-->
+        <script src="http://www.xinhuanet.com/global/public/wxShare.js "></script>
+        <script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+        <div class="share-img" style="display:none"><img width="300" height="300" src="fenxiang.jpg"></div>
+        <img class="share-img" style="display:none" src="fenxiang.jpg" width="300" height="300" />
+
+        <!--音乐图标显示-->
+        <audio id="aud2" autoplay loop>
+            <source src="http://www.sn.xinhuanet.com/1122636169_15228057740841n.mp3" id="video_url_mp31" type="audio/mpeg"></source>
+        </audio>
+
+        <script>
+            //必须在微信Weixin JSAPI的WeixinJSBridgeReady才能生效
+            document.addEventListener("WeixinJSBridgeReady", function () {
+                document.getElementById('aud2').play();
+            }, false);
+        </script>
+
+        <script>
+            $(document).on('click', '#moveTo', function(){
+                $.fn.fullpage.moveTo('page1');
+            });
+        </script> 
+        <div id="viose">
+            <img src="music.png"/>
+        </div>
+
+        <!--音乐图标显示END-->
+        <div id="next"><img src="next.png"/></div>
+        <div id="prev"><img src="prev.png"/></div>
+        </div>
+        <div id="fullpage">
+
+            <!--封面-->
+            <div class="section section1" id="content">
+              <div class="box fm">
+                <div id="fm_1">
+                  <img src="fm_1.png">
+                </div>
+                <div id="fm_2">
+                      <img src="fm_2.png">
+                </div>
+                <div id="fm_4">
+                      <img src="fm_4.png">
+                </div>
+                <div id="fm_5">
+                      <img src="fm_5.png">
+                </div>
+                <div id="fm_6">
+                      <img src="fm_6.png">
+                </div>
+              </div>
+                <div class="down">
+                    <samp></samp>
+                </div>
+            </div>
+
+            <div class="section">
+                <button id="moveTo">Move to page2 slide 2</button>
+            </div>
+            
+            <!--第一页-->
+            <div class="section">
+                <div class="box p1">
+
+                    <div id="p1_1">
+                        <img src="p1_1.png">
+                    </div>
+                    <div id="p1_3">
+                        <img src="p1_3.png">
+                    </div>
+                    <div id="p1_4">
+                        <img src="p1_4.png">
+                    </div>
+                    <div id="p1_5">
+                        <img src="p1_5.png">
+                    </div>
+                    
+                </div>
+                <div class="down">
+                    <samp></samp>
+                </div>
+            </div>
+            <!--第2页-->
+            <div class="section">
+                <div class="box p2">
+
+                    <div id="p2_2">
+                        <img src="p2_2.png">
+                    </div>
+                    <div id="p2_3">
+                        <img src="p2_3.png">
+                    </div>
+                    <div id="p2_4">
+                        <img src="p2_4.png">
+                    </div>
+                    <div id="p2_5">
+                        <img src="p2_5.png">
+                    </div>
+                </div>
+                <div class="down">
+                    <samp></samp>
+                </div>
+            </div>
+            <!--第3页-->
+            <div class="section">
+                <div class="box p3">
+                  
+                    <div id="p3_2">
+                        <img src="p3_2.png">
+                    </div>
+                    <div id="p3_3">
+                        <img src="p3_3.png">
+                    </div>
+                    <div id="p3_4">
+                        <img src="p3_4.png">
+                    </div>
+                    <div id="p3_5">
+                        <img src="p3_5.png">
+                    </div>
+
+                </div>
+                <div class="down">
+                    <samp></samp>
+                </div>
+            </div>
+            <!--第4页-->
+            <div class="section">
+                <div class="box p4">
+                    <div id="p4_1">
+                        <img src="p4_1.png">
+                    </div>
+                    <div id="p4_2">
+                        <img src="p4_2.png">
+                    </div>
+                    <div id="p4_3">
+                        <img src="p4_3.png">
+                    </div>
+                    <div id="p4_4">
+                        <img src="p4_4.png">
+                    </div>
+                  
+                </div>
+                <div class="down">
+                    <samp></samp>
+                </div>
+            </div>
+            <!--第5页-->
+            <div class="section">
+                <div class="box p5">
+                      <div id="p5_1">
+                        <img src="p5_1.png">
+                    </div>
+                    <div id="p5_2">
+                        <img src="p5_2.png">
+                    </div>
+                    <div id="p5_3">
+                        <img src="p5_3.png">
+                    </div>
+                    <div id="p5_4">
+                        <img src="p5_4.png">
+                    </div>
+                    <div id="p5_5">
+                        <img src="p5_5.png">
+                    </div>
+                </div>
+                <div class="down">
+                    <samp></samp>
+                </div>
+            </div>
+            <!--第6页-->
+            <div class="section">
+                <div class="box p6">
+                      <div id="p6_1">
+                        <img src="p6_1.png">
+                    </div>
+                    <div id="p6_2">
+                        <img src="p6_2.png">
+                    </div>
+                    
+                    <div id="p6_4">
+                        <img src="p6_4.png">
+                    </div>
+                    <div id="p6_5">
+                        <img src="p6_5.png">
+                    </div>
+
+                </div>
+                <div class="down">
+                    <samp></samp>
+                </div>
+            </div>
+
+            <!--第7页-->
+            <div class="section">
+                <div class="box p7">
+                      <div id="p7_1">
+                        <img src="p7_1.png">
+                    </div>
+                    <div id="p7_2">
+                        <img src="p7_2.png">
+                    </div>
+                  
+                    <div id="p7_4">
+                        <img src="p7_4.png">
+                    </div>
+                    <div id="p7_5">
+                        <img src="p7_5.png">
+                    </div>
+
+                </div>
+                <div class="down">
+                    <samp></samp>
+                </div>
+            </div>
+
+            <!--第8页-->
+            <div class="section">
+                <div class="box p8">
+                      <div id="p8_1">
+                        <img src="p8_1.png">
+                    </div>
+                    <div id="p8_2">
+                        <img src="p8_2.png">
+                    </div>
+                    
+                    <div id="p8_4">
+                        <img src="p8_4.png">
+                    </div>
+                    <div id="p8_5">
+                        <img src="p8_5.png">
+                    </div>
+
+                </div>
+                <div class="down">
+                    <samp></samp>
+                </div>
+            </div>
+
+            <!--第9页-->
+            <div class="section">
+                <div class="box p9">
+                      <div id="p9_1">
+                        <img src="p9_1.png">
+                    </div>
+                    <div id="p9_2">
+                        <img src="p9_2.png">
+                    </div>
+                    <div id="p9_3">
+                        <img src="p9_3.png">
+                    </div>
+                    <div id="p9_4">
+                        <img src="p9_4.png">
+                    </div>
+                    <div id="p9_5">
+                        <img src="p9_5.png">
+                    </div>
+
+                </div>
+                <div class="down">
+                    <samp></samp>
+                </div>
+            </div>
+
+            <!--第10页-->
+            <div class="section">
+                <div class="box p10">
+                      <div id="p10_1">
+                        <img src="p10_1.png">
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <script type="text/javascript" src="jquery.min.js"></script>
+        <script type="text/javascript" src="jquery.fullPage.min.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+
+        <div style="display:none"><div id="fwl">010070270010000000000000011200000000000000</div>
+        	<script type="text/javascript" src="http://webd.home.news.cn/webdig.js?z=1"></script>
+        	<!-- <script type="text/javascript">wd_paramtracker("_wdxid=010070270010000000000000011200000000000000")
+        	</script> -->
+        	<noscript><img src="http://webd.home.news.cn/1.gif?z=1&_wdxid=010070270010000000000000011200000000000000" border="0" />
+        	</noscript>
+        </div> 
+
+        <!--微信分享图功能-->  
+         <div class="share-substr" style="display:none"></div>  
+         <script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>  
+         <script src="http://www.xinhuanet.com/global/public/wxShare.js"></script>  
+         <!--微信分享图功能-->
+
+    </body>
+</html>
