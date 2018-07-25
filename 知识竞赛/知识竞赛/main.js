@@ -99,7 +99,7 @@ $(document).ready(function() {
             } else if (index == 5){
                 $('#p4_1').addClass('animated vanishIn').fadeIn();
                 setTimeout(function () {
-                    $('#p4_2').addClass('animated fadeInUp').fadeIn();
+                    $('#p4_2').addClass('animated vanishIn').fadeIn();
                 },1000);
 				setTimeout(function () {
                     $('#p4_3').addClass('animated fadeIn').fadeIn();
@@ -111,7 +111,7 @@ $(document).ready(function() {
                     $('#p4_5').addClass('animated fadeIn').fadeIn();
                 },3700);
             } else if (index == 6){
-                $('#p5_1').addClass('animated fadeInDown').fadeIn();
+                $('#p5_1').addClass('animated vanishIn').fadeIn();
                 setTimeout(function () {
                     $('#p5_2').addClass('animated vanishIn').fadeIn();
                 },1000);
