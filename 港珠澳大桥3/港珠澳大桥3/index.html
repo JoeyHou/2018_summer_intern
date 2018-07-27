@@ -6,14 +6,15 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="renderer" content="webkit">
         <meta content="yes" name="apple-mobile-web-app-capable">
-
         <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,minimum-scale=1, maximum-scale=1, user-scalable=no" />
         <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge" />
+        
         <title>港珠澳大桥</title>
-        <link rel="stylesheet" type="text/css" href="square-jelly-box.css">
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <link rel="stylesheet" type="text/css" href="animate.css">
-        <link rel="stylesheet" type="text/css" href="jquery.fullPage.css">
+
+        <link rel="stylesheet" type="text/css" href="css/square-jelly-box.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/animate.css">
+        <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
         <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     </head>
     <body>
@@ -30,59 +31,62 @@
         <img class="share-img" style="display:none" src="fenxiang.jpg" width="300" height="300" />
 
         <script>
-            $(document).on('click', '#moveTo_p1', function(){
+            // Start
+            $(document).on('click', '#p0_2', function(){
                 $.fn.fullpage.moveTo('page1');
+                // console.log('hi!');
             });
-
             $(document).on('click', '#moveTo_p2', function(){
                 $.fn.fullpage.moveTo('page2');
             });
-        </script> 
 
-        </div>
+
+        </script> 
 
         <div id="fullpage">
 
             <!--封面-->
             <div class="section section1" id="content">
-              <div class="box fm">
-                <div id="fm_1">
-                  <img src="fm_1.png">
-                </div>
-                <!-- <div id="fm_2">
-                      <img src="fm_2.png">
-                </div>
- -->                <div id="fm_3">
-                      <img id="moveTo_p1" src="fm_3.png">
-                </div>
-                <!-- <div id="fm_5">
-                      <img src="fm_5.png">
-                </div>
-                <div id="fm_6">
-                      <img src="fm_6.png">
-                </div> -->
+                <div class="box fm">
+                    <div id="fm_1">
+                        <img src="images/fm_1.png">
+                    </div>
+                    <div class="down">
+                        <samp></samp>
+                    </div>
               </div>
             </div>
             
-            <!--第一页-->
+            <!--第0页-->
+            <div class="section">
+                <div class="box p0">
+                    <div id="p0_1">
+                        <img src="images/p0_1.png">
+                    </div>
+                    <div id="p0_2">
+                        <img src="images/p0_2.png">
+                    </div>
+                    
+                </div>
+            </div>
+
+            <!--第1页-->
             <div class="section">
                 <div class="box p1">
-
-                    <div id="p1_1">
-                        <p>1.港珠澳大桥是以公路桥的形式连接香港、珠海及澳门的大型跨海通道，请问它的起点位于？</p>
-                        <!-- <img src="p1_1.png"> -->
+                    <div id="p1_1" class="to_page2">
+                        <img src="images/p1_1.png">
                     </div>
-                    <div id="p1_3">
-                        <p id="moveTo_p2">A.澳门大潭山</p>
-                        <!-- <img src="p1_3.png"> -->
+                    <div id="p1_2" class="to_page2">
+                        <img src="images/p1_2.png">
                     </div>
-                    <div id="p1_4">
-                        <p id="moveTo_p2">B.珠海凤凰山</p>
-                        <!-- <img src="p1_4.png"> -->
+                    <div id="p1_3" class="to_page2">
+                        <img src="images/p1_3.png">
                     </div>
-                    <div id="p1_5">
-                        <p id="moveTo_p2">C.香港大屿山</p>
-                        <!-- <img src="p1_5.png"> -->
+                    <div id="p1_4" class="to_page2">
+                        <img src="images/p1_4.png">
+                    </div>
+                    <div id="p1_5" class="to_page2">
+                        <img src="images/p1_5.png">
                     </div>
                     
                 </div>
@@ -91,21 +95,14 @@
             <div class="section">
                 <div class="box p2">
                     <div id="p2_1">
-                        <p>港珠澳大桥香港段东起大屿山香港口岸，西接珠海水域的东人工岛，工程由7.8公里海上高架桥、1.8公里陆地高架桥、1公里观景山隧道、1.6公里地面道路、香港口岸组成。
-                        </p>
+                        <img src="images/p2_1.png">
                     </div>
-                    <!-- <div id="p2_2">
-                        <img src="p2_2.png">
+                    <div id="p2_2">
+                        <img src="images/p2_2.png">
                     </div>
                     <div id="p2_3">
-                        <img src="p2_3.png">
+                        <img src="images/p2_3.png">
                     </div>
-                    <div id="p2_4">
-                        <img src="p2_4.png">
-                    </div>
-                    <div id="p2_5">
-                        <img src="p2_5.png">
-                    </div> -->
                 </div>
             </div>
             <!--第3页-->
@@ -260,15 +257,13 @@
 
         </div>
 
-        <script type="text/javascript" src="jquery.min.js"></script>
-        <script type="text/javascript" src="jquery.fullPage.min.js"></script>
-        <script type="text/javascript" src="main.js"></script>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
         <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
 
         <div style="display:none"><div id="fwl">010070270010000000000000011200000000000000</div>
         	<script type="text/javascript" src="http://webd.home.news.cn/webdig.js?z=1"></script>
-        	<!-- <script type="text/javascript">wd_paramtracker("_wdxid=010070270010000000000000011200000000000000")
-        	</script> -->
         	<noscript><img src="http://webd.home.news.cn/1.gif?z=1&_wdxid=010070270010000000000000011200000000000000" border="0" />
         	</noscript>
         </div> 

@@ -1,0 +1,14 @@
+{
+  "name": "zhishijingsai",
+  "version": "1.0.0",
+  "description": "The website for this project is: http://www.gd.xinhuanet.com/gdstatics/zt18/xiaoshu12/",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
