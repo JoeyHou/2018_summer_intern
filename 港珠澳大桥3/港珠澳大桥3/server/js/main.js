@@ -29,8 +29,8 @@ $(document).ready(function() {
                 }
                 
             } else if(index == 2){
-                $.fn.fullpage.setAllowScrolling(false);
-                $.fn.fullpage.setKeyboardScrolling(false);
+                // $.fn.fullpage.setAllowScrolling(false);
+                // $.fn.fullpage.setKeyboardScrolling(false);
                 $('#p0_1').addClass('animated fadeIn').fadeIn(); 
                 setTimeout(function () {
                     $('#p0_2').addClass('animated fadeIn').fadeIn();
@@ -42,21 +42,21 @@ $(document).ready(function() {
                 }
                 $('#p1_1').addClass('animated fadeIn').fadeIn(); 
                 setTimeout(function () {
-                    $('#p1_2').addClass('animated fadeIn').fadeIn();
-                },900);
+                    $('#p1_2').addClass('animated fadeInDown').fadeIn();
+                },1000);
                 setTimeout(function () {
                     $('#p1_3').addClass('animated fadeInDown').fadeIn();
-                },1300);
+                },1000);
                 setTimeout(function () {
-                    $('#p1_4').addClass('animated fadeIn').fadeIn();
-                },1900);
+                    $('#p1_4').addClass('animated fadeInDown').fadeIn();
+                },1000);
                 setTimeout(function () {
-                    $('#p1_5').addClass('animated zoomIn').fadeIn();
-                },2700);
+                    $('#p1_5').addClass('animated fadeInDown').fadeIn();
+                },1000);
 
             } else if (index == 4){
-                $.fn.fullpage.setAllowScrolling(true);
-                $.fn.fullpage.setKeyboardScrolling(true);
+                // $.fn.fullpage.setAllowScrolling(true);
+                // $.fn.fullpage.setKeyboardScrolling(true);
                 $('#p2_1').addClass('animated fadeIn').fadeIn();
                 setTimeout(function () {
                     $('#p2_2').addClass('animated vanishIn').fadeIn();
@@ -75,26 +75,26 @@ $(document).ready(function() {
                 },3700);
                 
             } else if (index == 5){
-                $.fn.fullpage.setAllowScrolling(false);
-                $.fn.fullpage.setKeyboardScrolling(false);
+                // $.fn.fullpage.setAllowScrolling(false);
+                // $.fn.fullpage.setKeyboardScrolling(false);
                 $('#p3_1').addClass('animated vanishIn').fadeIn();
                 setTimeout(function () {
-                    $('#p3_2').addClass('animated vanishIn').fadeIn();
+                    $('#p3_2').addClass('animated fadeInDown').fadeIn();
                 },1000);
                 setTimeout(function () {
-                    $('#p3_3').addClass('animated vanishIn').fadeIn();
-                },1800);
+                    $('#p3_3').addClass('animated fadeInDown').fadeIn();
+                },1000);
                 setTimeout(function () {
-                    $('#p3_4').addClass('animated fadeInUp').fadeIn();
-                },2200);
+                    $('#p3_4').addClass('animated fadeInDown').fadeIn();
+                },1000);
                 setTimeout(function () {
-                    $('#p3_5').addClass('animated zoomIn').fadeIn();
-                },3700);
+                    $('#p3_5').addClass('animated fadeInDown').fadeIn();
+                },1000);
 
                 
             } else if (index == 6){
-                $.fn.fullpage.setAllowScrolling(true);
-                $.fn.fullpage.setKeyboardScrolling(true);
+                // $.fn.fullpage.setAllowScrolling(true);
+                // $.fn.fullpage.setKeyboardScrolling(true);
                 $('#p4_1').addClass('animated vanishIn').fadeIn();
                 setTimeout(function () {
                     $('#p4_2').addClass('animated fadeInUp').fadeIn();
@@ -110,26 +110,26 @@ $(document).ready(function() {
                 },3700);
                 
             } else if (index == 7){
-                $.fn.fullpage.setAllowScrolling(false);
-                $.fn.fullpage.setKeyboardScrolling(false);
+                // $.fn.fullpage.setAllowScrolling(false);
+                // $.fn.fullpage.setKeyboardScrolling(false);
                 $('#p5_1').addClass('animated fadeInDown').fadeIn();
                 setTimeout(function () {
-                    $('#p5_2').addClass('animated vanishIn').fadeIn();
+                    $('#p5_2').addClass('animated fadeInDown').fadeIn();
                 },1000);
                 setTimeout(function () {
                     $('#p5_3').addClass('animated fadeInDown').fadeIn();
-                },1300);
+                },1000);
                 setTimeout(function () {
-                    $('#p5_4').addClass('animated vanishIn').fadeIn();
-                },1500);                                
+                    $('#p5_4').addClass('animated fadeInDown').fadeIn();
+                },1000);                                
                 setTimeout(function () {
-                    $('#p5_5').addClass('animated fadeIn').fadeIn();
-                },2700);
+                    $('#p5_5').addClass('animated fadeInDown').fadeIn();
+                },1000);
 
 					
             } else if (index == 8){
-                $.fn.fullpage.setAllowScrolling(true);
-                $.fn.fullpage.setKeyboardScrolling(true);
+                // $.fn.fullpage.setAllowScrolling(true);
+                // $.fn.fullpage.setKeyboardScrolling(true);
                 $('#p6_1').addClass('animated vanishIn').fadeIn();
                 setTimeout(function () {
                     $('#p6_2').addClass('animated fadeInUp').fadeIn();
@@ -146,25 +146,25 @@ $(document).ready(function() {
                 
 
 			} else if (index == 9){
-                $.fn.fullpage.setAllowScrolling(false);
-                $.fn.fullpage.setKeyboardScrolling(false);
+                // $.fn.fullpage.setAllowScrolling(false);
+                // $.fn.fullpage.setKeyboardScrolling(false);
                 $('#p7_1').addClass('animated vanishIn').fadeIn();
                 setTimeout(function () {
-                    $('#p7_2').addClass('animated fadeInUp').fadeIn();
+                    $('#p7_2').addClass('animated fadeInDown').fadeIn();
                 },1000);
                 setTimeout(function () {
-                    $('#p7_3').addClass('animated fadeInUp').fadeIn();
-                },2300);
+                    $('#p7_3').addClass('animated fadeInDown').fadeIn();
+                },1000);
                 setTimeout(function () {
-                    $('#p7_4').addClass('animated fadeInUp').fadeIn();
-                },2500);
+                    $('#p7_4').addClass('animated fadeInDown').fadeIn();
+                },1000);
                 setTimeout(function () {
-                    $('#p7_5').addClass('animated fadeIn').fadeIn();
-                },4700);
+                    $('#p7_5').addClass('animated fadeInDown').fadeIn();
+                },1000);
 			
 			} else if (index == 10){
-                $.fn.fullpage.setAllowScrolling(true);
-                $.fn.fullpage.setKeyboardScrolling(true);
+                // $.fn.fullpage.setAllowScrolling(true);
+                // $.fn.fullpage.setKeyboardScrolling(true);
                 
                 $('#p8_1').addClass('animated vanishIn').fadeIn();
                 setTimeout(function () {
@@ -181,26 +181,26 @@ $(document).ready(function() {
                 },3700);
 			 
             } else if (index == 11){
-                $.fn.fullpage.setAllowScrolling(false);
-                $.fn.fullpage.setKeyboardScrolling(false);
+                // $.fn.fullpage.setAllowScrolling(false);
+                // $.fn.fullpage.setKeyboardScrolling(false);
                 $('#p9_1').addClass('animated vanishIn').fadeIn();
                 setTimeout(function () {
-                    $('#p9_2').addClass('animated fadeInUp').fadeIn();
+                    $('#p9_2').addClass('animated fadeInDown').fadeIn();
                 },1000);
                 setTimeout(function () {
-                    $('#p9_3').addClass('animated fadeInUp').fadeIn();
-                },1700);
+                    $('#p9_3').addClass('animated fadeInDown').fadeIn();
+                },1000);
                 setTimeout(function () {
-                    $('#p9_4').addClass('animated fadeInUp').fadeIn();
-                },2500);
+                    $('#p9_4').addClass('animated fadeInDown').fadeIn();
+                },1000);
                 setTimeout(function () {
-                    $('#p9_5').addClass('animated fadeIn').fadeIn();
-                },3700);
+                    $('#p9_5').addClass('animated fadeInDown').fadeIn();
+                },1000);
 
 																
 			} else if (index == 12){
-                $.fn.fullpage.setAllowScrolling(true);
-                $.fn.fullpage.setKeyboardScrolling(true);
+                // $.fn.fullpage.setAllowScrolling(true);
+                // $.fn.fullpage.setKeyboardScrolling(true);
                 $('#p10_1').addClass('animated vanishIn').fadeIn();
                 setTimeout(function () {
                     $('#p10_2').addClass('animated vanishIn').fadeIn();
@@ -219,19 +219,17 @@ $(document).ready(function() {
             } else if (index == 13){
                 $('#p11_1').addClass('animated vanishIn').fadeIn();
                 setTimeout(function () {
-                    $('#p11_2').addClass('animated fadeInUp').fadeIn();
+                    $('#p11_2').addClass('animated fadeInDown').fadeIn();
                 },1000);
                 setTimeout(function () {
-                    $('#p11_3').addClass('animated fadeInUp').fadeIn();
-                },1800);
+                    $('#p11_3').addClass('animated fadeInDown').fadeIn();
+                },1000);
                 setTimeout(function () {
-                    $('#p11_4').addClass('animated fadeIn').fadeIn();
-                },2900);
+                    $('#p11_4').addClass('animated fadeInDown').fadeIn();
+                },1000);
                 setTimeout(function () {
-                    $('#p11_5').addClass('animated fadeIn').fadeIn();
-                },3900);
-                
-													
+                    $('#p11_5').addClass('animated fadeInDown').fadeIn();
+                },1000);									
 		    } else if (index == 14){
                 $('#p12_1').addClass('animated vanishIn').fadeIn();
                 setTimeout(function () {
@@ -247,8 +245,6 @@ $(document).ready(function() {
                     $('#p12_5').addClass('animated fadeIn').fadeIn();
                 },4000);
                 
-
-
 		    } else if (index == 15){
                 $('#p13_1').addClass('animated vanishIn').fadeIn();
                 setTimeout(function () {

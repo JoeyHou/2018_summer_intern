@@ -62,9 +62,9 @@ ul,ol{list-style:none;}
 .p3{background:url(../images/q_bg.jpg) center no-repeat;background-size:600px 100%;max-height:900px;}
 #p3_1{position: absolute;width: 80%;top: 30%;left: 10%;display: none;}
 #p3_2{position: absolute;width: 30%;top: 50%;left: 20%;display: none;}
-#p3_3{position: absolute;width: 100%;top: 4%;left: 0;display: none;}
-#p3_4{position: absolute;width: 100%;top: 5%;left: 0;display: none;}
-#p3_5{position: absolute;width: 100%;top: 0%;left: 0;display: none;}
+#p3_3{position: absolute;width: 30%;top: 55%;left: 20%;display: none;}
+#p3_4{position: absolute;width: 30%;top: 60%;left: 20%;display: none;}
+#p3_5{position: absolute;width: 30%;top: 65%;left: 20%;display: none;}
 
 /*p4*/
 .p4{background:url(../images/a_bg.jpg) center no-repeat;background-size:600px 100%;max-height:900px;}
@@ -75,10 +75,10 @@ ul,ol{list-style:none;}
 /*p5*/ 
 .p5{background:url(../images/q_bg.jpg) center no-repeat;background-size:600px 100%;max-height:900px;}
 #p5_1{position: absolute;width: 80%;top: 30%;left: 10%;display: none;}
-#p5_2{position: absolute;width: 30%;top: 50%;left: 20%;display: none;}
-#p5_3{position: absolute;width: 100%;top: 0%;left: 0;display: none;}
-#p5_4{position: absolute;width: 100%;top: 0%;left: 0;display: none;}
-#p5_5{position: absolute;width: 100%;top: 0%;left: 0;display: none;}
+#p5_2{position: absolute;width: 16%;top: 60%;left: 20%;display: none;}
+#p5_3{position: absolute;width: 16%;top: 65%;left: 20%;display: none;}
+#p5_4{position: absolute;width: 16%;top: 70%;left: 20%;display: none;}
+#p5_5{position: absolute;width: 16%;top: 75%;left: 20%;display: none;}
 
 /*p6*/
 .p6{background:url(../images/a_bg.jpg) center no-repeat;background-size:600px 100%;max-height:900px;}
@@ -90,9 +90,9 @@ ul,ol{list-style:none;}
 .p7{background:url(../images/q_bg.jpg) center no-repeat;background-size:600px 100%;max-height:900px;}
 #p7_1{position: absolute;width: 80%;top: 30%;left: 10%;display: none;}
 #p7_2{position: absolute;width: 30%;top: 50%;left: 20%;display: none;}
-#p7_3{position: absolute;width: 100%;top: 0%;left: 0;display: none;}
-#p7_4{position: absolute;width: 100%;top: -3%;left: 0;display: none;}
-#p7_5{position: absolute;width: 100%;top: 0%;left: 0;display: none;}
+#p7_3{position: absolute;width: 30%;top: 55%;left: 20%;display: none;}
+#p7_4{position: absolute;width: 30%;top: 60%;left: 20%;display: none;}
+#p7_5{position: absolute;width: 30%;top: 65%;left: 20%;display: none;}
 
 /*p8*/
 .p8{background:url(../images/a_bg.jpg) center no-repeat;background-size:600px 100%;max-height:900px;}
@@ -104,9 +104,9 @@ ul,ol{list-style:none;}
 .p9{background:url(../images/q_bg.jpg) center no-repeat;background-size:600px 100%;max-height:900px;}
 #p9_1{position: absolute;width: 80%;top: 30%;left: 10%;display: none;}
 #p9_2{position: absolute;width: 100%;top: 0%;left: 0;display: none;}
-#p9_3{position: absolute;width: 100%;top: 5%;left: 0;display: none;}
-#p9_4{position: absolute;width: 100%;top: 5%;left: 0;display: none;}
-#p9_5{position: absolute;width: 100%;top: 0%;left: 0;display: none;}
+#p9_3{position: absolute;width: 30%;top: 55%;left: 20%;display: none;}
+#p9_4{position: absolute;width: 30%;top: 60%;left: 20%;display: none;}
+#p9_5{position: absolute;width: 30%;top: 65%;left: 20%;display: none;}
 
 /*p10*/
 .p10{background:url(../images/a_bg.jpg) center no-repeat;background-size:600px 100%;max-height:900px;}
@@ -118,9 +118,9 @@ ul,ol{list-style:none;}
 .p11{background:url(../images/q_bg.jpg) center no-repeat;background-size:600px 100%;max-height:900px;}
 #p11_1{position: absolute;width: 80%;top: 30%;left: 10%;display: none;}
 #p11_2{position: absolute;width: 100%;top: 0%;left: 0;display: none;}
-#p11_3{position: absolute;width: 100%;top: 0%;left: 0;display: none;}
-#p11_4{position: absolute;width: 100%;top: 0%;left: 0;display: none;}
-#p11_5{position: absolute;width: 100%;top: 0%;left: 0;display: none;}
+#p11_3{position: absolute;width: 30%;top: 55%;left: 20%;display: none;}
+#p11_4{position: absolute;width: 30%;top: 60%;left: 20%;display: none;}
+#p11_5{position: absolute;width: 30%;top: 65%;left: 20%;display: none;}
 
 /*p12*/
 .p10{background:url(../images/a_bg.jpg) center no-repeat;background-size:600px 100%;max-height:900px;}
