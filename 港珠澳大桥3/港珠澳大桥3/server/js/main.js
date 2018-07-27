@@ -321,6 +321,24 @@ $(document).ready(function() {
         $.fn.fullpage.moveTo('page2');
     });
 
+    $(document).on('click', '.to_page4', function(){
+        $.fn.fullpage.moveTo('page4');
+    });
 
+    $(document).on('click', '.to_page6', function(){
+        $.fn.fullpage.moveTo('page6');
+    });
+
+    $(document).on('click', '.to_page8', function(){
+        $.fn.fullpage.moveTo('page8');
+    });
+
+    $(document).on('click', '.to_page10', function(){
+        $.fn.fullpage.moveTo('page10');
+    });   
+
+    $(document).on('click', '.to_page12', function(){
+        $.fn.fullpage.moveTo('page12');
+    });  
 
 });
