@@ -9,7 +9,7 @@ app.get("/", function(req, res){
 
 });
 
-app.listen(8080, function(){
-	console.log("Listened on 8080.");
+app.listen(80, function(){
+	console.log("Listened on 80.");
 });
 
