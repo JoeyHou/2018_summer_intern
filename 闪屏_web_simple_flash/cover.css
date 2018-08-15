@@ -1,0 +1,620 @@
+/**
+*
+@Author: hover-hou
+@Date: Wed Jun 13 2018 12:12:55 GMT+0800 (DST)
+*
+*/
+
+/* .fakecont{
+	height: 3000px;
+	background-color: red;
+} */
+
+/*body {
+  background-image: url('bg.png');
+}*/
+
+.cover-video {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 1920px;
+  height: 1080px;
+  margin-left: -960px;
+  -webkit-transition: all 0.2s ease 0s;
+  -moz-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+  display: none;
+}
+
+.cover-video video {
+  width: 100%;
+  height: 100%;
+}
+
+.cover-ie .cover-video {
+  display: none;
+}
+
+.overflowhidden {
+  overflow: hidden;
+}
+
+.cover {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-position: 0 -1080px, 50% 1080px, 100% -1080px;
+  -webkit-background-size: 33% 100%, 34% 100%, 34% 100%;
+  -moz-background-size: 33% 100%, 34% 100%, 34% 100%;
+  background-size: 33% 100%, 34% 100%, 34% 100%;
+  background-repeat: no-repeat;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+.cover-bg {
+  /*background-color: 'white';*/
+  /*background-image: url("fire1.png"), url(fire2.png);*/
+  /*background-image: url("http://www.xinhuanet.com/topic/2018worldcup/img/cover_bg_left.png"), url("http://www.xinhuanet.com/topic/2018worldcup/img/cover_bg_mid.png"), url("http://www.xinhuanet.com/topic/2018worldcup/img/cover_bg_red.png");*/
+}
+
+.cover-bg-end {
+  background-position: 0 0, 50% 0, 100% 0;
+}
+
+.cover-wrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+.cover-wrap-bg {
+  background-image: url("bg.jpg");
+  background-size: cover;
+}
+
+.cover-opacity-1 {
+  opacity: 1;
+}
+
+.cover-opacity-0 {
+  opacity: 0;
+}
+
+.cover-flag {
+  position: absolute;
+  top: 10%;
+  left: 35%;
+  width: 1000px;
+  height: 803px;
+}
+
+/*.cover-flag-bg {
+  background: url("flag.png") 0 0 no-repeat;
+  background-size: 100%;
+}*/
+
+.cover-flag-w {
+  width: 1050px;
+}
+
+.cover-flag-scale {
+  background: url("flag.png") 0 0 no-repeat;
+  background-size: 100%;
+  -webkit-animation-name: coverFlagIn;
+  /*-moz-animation-name: coverFlagIn;*/
+  /*animation-name: coverFlagIn;*/
+  -webkit-animation-duration: 1s;
+  /*-moz-animation-duration: 1s;*/
+  /*animation-duration: 1s;*/
+  -webkit-animation-iteration-count: 1;
+  /*-moz-animation-iteration-count: 1;*/
+  /*animation-iteration-count: 1;*/
+/*  -webkit-animation-direction: normal;
+  -moz-animation-direction: normal;
+  animation-direction: normal;
+  -webkit-animation-timing-function: ease;
+  -moz-animation-timing-function: ease;
+  animation-timing-function: ease;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;*/
+  /*-webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  animation-delay: 0.5s;*/
+}
+
+@-webkit-keyframes coverFlagIn {
+  0%,
+  25%,
+  50%,
+  75%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 0.9);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 0.9);
+  }
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(100px, 100px, 100px);
+    transform: translate3d(100px, 100px, 100px);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(50px, 30px, 30px);
+    transform: translate3d(50px, 30px, 30px);
+  }
+  75% {
+    -webkit-transform: translate3d(20px, 10px, 10px);
+    transform: translate3d(20px, 10px, 10px);
+  }
+  90% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@-moz-keyframes coverFlagIn {
+  0%,
+  60%,
+  75%,
+  90%,
+  to {
+    -moz-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 0.9);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 0.9);
+  }
+  0% {
+    opacity: 0;
+    -moz-transform: translate3d(3000px, 100px, 100px);
+    transform: translate3d(3000px, 100px, 100px);
+  }
+  60% {
+    opacity: 1;
+    -moz-transform: translate3d(50px, 30px, 30px);
+    transform: translate3d(50px, 30px, 30px);
+  }
+  75% {
+    -moz-transform: translate3d(20px, 10px, 10px);
+    transform: translate3d(20px, 10px, 10px);
+  }
+  90% {
+    -moz-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+  to {
+    -moz-transform: translate3d(5px, 0, 0);
+    transform: translate3d(5px, 0, 0);
+  }
+}
+
+@keyframes coverFlagIn {
+  0%,
+  60%,
+  75%,
+  90%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 0.9);
+    -moz-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 0.9);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 0.9);
+  }
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(3000px, 0px, 0);
+    -moz-transform: translate3d(3000px, 0px, 0);
+    transform: translate3d(3000px, 0px, 0);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(50px, 30px, 30px);
+    -moz-transform: translate3d(50px, 30px, 30px);
+    transform: translate3d(50px, 30px, 30px);
+  }
+  75% {
+    -webkit-transform: translate3d(20px, 10px, 10px);
+    -moz-transform: translate3d(20px, 10px, 10px);
+    transform: translate3d(20px, 10px, 10px);
+  }
+  90% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    -moz-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+  to {
+    -webkit-transform: translate3d(5px, 0, 0);
+    -moz-transform: translate3d(5px, 0, 0);
+    transform: translate3d(5px, 0, 0);
+  }
+}
+
+
+.cover-txt1 {
+  position: absolute;
+  top: 25%;
+  left: 47%;
+  width: 500px;
+  height: 400px;
+  -webkit-transform: scale3d(0, 0, 0);
+  -moz-transform: scale3d(0, 0, 0);
+  transform: scale3d(0, 0, 0);
+  -webkit-transition: all 0.8s cubic-bezier(0.99, -0.005, 0, 2) 0s;
+  -moz-transition: all 0.8s cubic-bezier(0.99, -0.005, 0, 2) 0s;
+  transition: all 0.8s cubic-bezier(0.99, -0.005, 0, 2) 0s;
+}
+
+.cover-txt1-bg {
+  background: url("text1.png") 0 0 no-repeat;
+  background-size: 100%;
+}
+
+.cover-txt1-w {
+  width: 1050px;
+}
+
+.cover-txt1-scale {
+  -webkit-transform: scale3d(1, 1, 1);
+  -moz-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+}
+
+.cover-txt2 {
+  position: absolute;
+  top: 62%;
+  left: 55%;
+  width: 400px;
+  height: 300px;
+  -webkit-transform: scale3d(0, 0, 0);
+  -moz-transform: scale3d(0, 0, 0);
+  transform: scale3d(0, 0, 0);
+  -webkit-transition: all 0.8s cubic-bezier(0.99, -0.005, 0, 2) 0s;
+  -moz-transition: all 0.8s cubic-bezier(0.99, -0.005, 0, 2) 0s;
+  transition: all 0.8s cubic-bezier(0.99, -0.005, 0, 2) 0s;
+}
+
+.cover-txt2-bg {
+  background: url("text2.png") 0 0 no-repeat;
+  background-size: 100%;
+}
+
+.cover-txt2-w {
+  width: 1050px;
+}
+
+.cover-txt2-scale {
+  -webkit-transform: scale3d(1, 1, 1);
+  -moz-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+}
+
+.cover-fire {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform: translate(0%, 0%);
+  -moz-transform: translate(0%, 0%);
+  -ms-transform: translate(0%, 0%);
+  transform: translate(0%, 0%);
+}
+
+.cover-fire-items {
+  /*position: absolute; */
+  height: 803px;
+  width: 803px; 
+  right: 0;
+  background-repeat: no-repeat;
+  opacity: 0;
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transition: all 0.2s ease-in 0s;
+  -moz-transition: all 0.2s ease-in 0s;
+  transition: all 0.2s ease-in 0s;
+}
+
+.cover-fire-items-bg .cover-fire-items {
+
+  /*background-image: url("fire1.png");*/
+  /*background-image: url("http://www.xinhuanet.com/topic/2018worldcup/img/cover_fire_l1.png");*/
+}
+
+.cover-fire-1 {
+  margin-top: 250px;
+  background-image: url("fire1.png");
+  background-size: 60%;
+  -webkit-transform-origin: 100% 0;
+  -moz-transform-origin: 100% 0;
+  -ms-transform-origin: 100% 0;
+  transform-origin: 100% 0;
+  -webkit-transition-delay: 1s;
+  -moz-transition-delay: 1s;
+  transition-delay: 1s;
+}
+
+.cover-fire-2 {
+  margin-top: -1000px;
+  margin-left: 650px; 
+  background-image: url("fire2.png");
+  background-size: 100%;
+  -webkit-transition-delay: 1.2s;
+  -moz-transition-delay: 1.2s;
+  transition-delay: 1.2s;
+  -webkit-transform-origin: 100% 0;
+  -moz-transform-origin: 100% 0;
+  -ms-transform-origin: 100% 0;
+  transform-origin: 100% 0;
+}
+
+/*.cover-fire-3 {
+  right: -80px;
+  -webkit-transition-delay: 1.5s;
+  -moz-transition-delay: 1.5s;
+  transition-delay: 1.5s;
+  -webkit-transform-origin: 0 100%;
+  -moz-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+}
+
+.cover-fire-4 {
+  top: -340px;
+  right: -200px;
+  -webkit-transition-delay: 1.35s;
+  -moz-transition-delay: 1.35s;
+  transition-delay: 1.35s;
+  -webkit-transform-origin: 0 100%;
+  -moz-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+}*/
+
+.cover-fire-items-open .cover-fire-items {
+  opacity: 1;
+}
+
+.cover-logo {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 420px;
+  height: 200px;
+  /*margin-left: -750px;*/
+  -webkit-transform: translate3d(-3000px, 0, 0);
+  -moz-transform: translate3d(-3000px, 0, 0);
+  transform: translate3d(-3000px, 0, 0);
+}
+
+.cover-logo-cont {
+  width: 100%;
+  height: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.cover-logo-bg {
+  background-image: url("logo.png");
+  background-size: contain;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+  -moz-animation-direction: normal;
+  animation-direction: normal;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+/*@-webkit-keyframes coverLogoRoll {
+  0% {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+  100% {
+    -webkit-transform: rotate3d(0, 0, 1, 360deg);
+    transform: rotate3d(0, 0, 1, 360deg);
+  }
+}
+
+@-moz-keyframes coverBallRoll {
+  0% {
+    -moz-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+  100% {
+    -moz-transform: rotate3d(0, 0, 1, 360deg);
+    transform: rotate3d(0, 0, 1, 360deg);
+  }
+}
+
+@keyframes coverLogoRoll {
+  0% {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    -moz-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+  100% {
+    -webkit-transform: rotate3d(0, 0, 1, 360deg);
+    -moz-transform: rotate3d(0, 0, 1, 360deg);
+    transform: rotate3d(0, 0, 1, 360deg);
+  }
+}*/
+
+.cover-logo-fallIn {
+  -webkit-animation-name: coverLogofallIn;
+  /*-moz-animation-name: coverLogofallIn;*/
+  /*animation-name: coverLogofallIn;*/
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-iteration-count: 1;
+  -moz-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-direction: normal;
+  -moz-animation-direction: normal;
+  animation-direction: normal;
+  -webkit-animation-timing-function: ease;
+  -moz-animation-timing-function: ease;
+  animation-timing-function: ease;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+
+@-webkit-keyframes coverLogofallIn {
+  0%,
+  60%,
+  75%,
+  90%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 0.9);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 0.9);
+  }
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-3000px, 0, 0);
+    transform: translate3d(-3000px, 0, 0);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(25px, 0, 0);
+    transform: translate3d(25px, 0, 0);
+  }
+  75% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+  90% {
+    -webkit-transform: translate3d(15px, 0, 0);
+    transform: translate3d(15px, 0, 0);
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@-moz-keyframes coverLogofallIn {
+  0%,
+  60%,
+  75%,
+  90%,
+  to {
+    -moz-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 0.9);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 0.9);
+  }
+  0% {
+    opacity: 0;
+    -moz-transform: translate3d(-3000px, 0, 0);
+    transform: translate3d(-3000px, 0, 0);
+  }
+  60% {
+    opacity: 1;
+    -moz-transform: translate3d(25px, 0, 0);
+    transform: translate3d(25px, 0, 0);
+  }
+  75% {
+    -moz-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+  90% {
+    -moz-transform: translate3d(15px, 0, 0);
+    transform: translate3d(15px, 0, 0);
+  }
+  to {
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes coverLogofallIn {
+  0%,
+  60%,
+  75%,
+  90%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 0.9);
+    -moz-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 0.9);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 0.9);
+  }
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-3000px, 0, 0);
+    -moz-transform: translate3d(-3000px, 0, 0);
+    transform: translate3d(-3000px, 0, 0);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(25px, 0, 0);
+    -moz-transform: translate3d(25px, 0, 0);
+    transform: translate3d(25px, 0, 0);
+  }
+  75% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    -moz-transform: translate3d(-10px, 0, 0, 0);
+    transform: translate3d(-10px, 0, 0, 0);
+  }
+  90% {
+    -webkit-transform: translate3d(15px, 0, 0);
+    -moz-transform: translate3d(15px, 0, 0);
+    transform: translate3d(15px, 0, 0);
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.cover-bg-out {
+  height: 0;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-delay: 1.5s;
+  -moz-transition-delay: 1.5s;
+  transition-delay: 1.5s;
+}
+
+.cover-ie {
+  width: 100%;
+  height: 1080px;
+  background: url("http://www.xinhuanet.com/topic/2018worldcup/img/conpatible.jpg") 50% 0 no-repeat;
+}
+
+/*# sourceMappingURL=maps/cover.css.map */

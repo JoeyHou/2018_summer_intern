@@ -90,138 +90,26 @@ $(document).ready(function() {
                     $('#p3_5').addClass('animated zoomIn').fadeIn();
                 },3700);
             } else if (index == 5){
-                $('#p4_1').addClass('animated vanishIn').fadeIn();
-                setTimeout(function () {
-                    $('#p4_2').addClass('animated vanishIn').fadeIn();
-                },300);
-				setTimeout(function () {
-                    $('#p4_3').addClass('animated fadeIn').fadeIn();
-                },1800);
-				setTimeout(function () {
-                    $('#p4_4').addClass('animated fadeIn').fadeIn();
-                },2500);
-				setTimeout(function () {
-                    $('#p4_5').addClass('animated fadeIn').fadeIn();
-                },3700);
+                $('#p4_1').addClass('animated fadeIn').fadeIn();
             } else if (index == 6){
-                $('#p5_1').addClass('animated vanishIn').fadeIn();
-                setTimeout(function () {
-                    $('#p5_2').addClass('animated vanishIn').fadeIn();
-                },1000);
-				setTimeout(function () {
-                    $('#p5_3').addClass('animated fadeInDown').fadeIn();
-                },1300);
-				setTimeout(function () {
-                    $('#p5_4').addClass('animated vanishIn').fadeIn();
-                },1500);				                
-                setTimeout(function () {
-                    $('#p5_5').addClass('animated fadeIn').fadeIn();
-                },2700);
+                $('#p5_1').addClass('animated fadeIn').fadeIn();
             } else if (index == 7){
                 $('#p6_1').addClass('animated vanishIn').fadeIn();
-                setTimeout(function () {
-                    $('#p6_2').addClass('animated fadeInUp').fadeIn();
-                },1000);
-				setTimeout(function () {
-                    $('#p6_3').addClass('animated fadeInUp').fadeIn();
-                },1900);
-				setTimeout(function () {
-                    $('#p6_4').addClass('animated fadeInUp').fadeIn();
-                },2500);
-				setTimeout(function () {
-                    $('#p6_5').addClass('animated fadeIn').fadeIn();
-                },3700);
-					
             } else if (index == 8){
-                $('#p7_1').addClass('animated vanishIn').fadeIn();
-                setTimeout(function () {
-                    $('#p7_2').addClass('animated fadeInUp').fadeIn();
-                },1000);
-				setTimeout(function () {
-                    $('#p7_3').addClass('animated fadeInUp').fadeIn();
-                },2300);
-				setTimeout(function () {
-                    $('#p7_4').addClass('animated fadeInUp').fadeIn();
-                },2500);
-				setTimeout(function () {
-                    $('#p7_5').addClass('animated fadeIn').fadeIn();
-                },4700);
-			
+                $('#p7_1').addClass('animated vanishIn').fadeIn();			
             } else if (index == 9){
                 $('#p8_1').addClass('animated vanishIn').fadeIn();
-                setTimeout(function () {
-                    $('#p8_2').addClass('animated fadeInUp').fadeIn();
-                },1000);
-				setTimeout(function () {
-                    $('#p8_3').addClass('animated fadeInUp').fadeIn();
-                },1700);
-				setTimeout(function () {
-                    $('#p8_4').addClass('animated fadeInUp').fadeIn();
-                },2000);
-				setTimeout(function () {
-                    $('#p8_5').addClass('animated fadeIn').fadeIn();
-                },3700);
-			
 			} else if (index == 10){
                 $('#p9_1').addClass('animated vanishIn').fadeIn();
-                setTimeout(function () {
-                    $('#p9_2').addClass('animated fadeInUp').fadeIn();
-                },1000);
-				setTimeout(function () {
-                    $('#p9_3').addClass('animated fadeInUp').fadeIn();
-                },1700);
-                setTimeout(function () {
-                    $('#p9_4').addClass('animated fadeInUp').fadeIn();
-                },2500);
-                setTimeout(function () {
-                    $('#p9_5').addClass('animated fadeIn').fadeIn();
-                },3700);
-			 
             } else if (index == 11){
-                $('#p10_1').addClass('animated fadeInUp').fadeIn();
-                setTimeout(function () {
-                    $('#p10_2').addClass('animated vanishIn').fadeIn();
-                },1000);
-				setTimeout(function () {
-                    $('#p10_3').addClass('animated fadeInUp').fadeIn();
-                },1800);
-				setTimeout(function () {
-                    $('#p10_4').addClass('animated fadeInUp').fadeIn();
-                },2400);
-				setTimeout(function () {
-                    $('#p10_5').addClass('animated fadeIn').fadeIn();
-                },3600);
-																
+                $('#p10_1').addClass('animated vanishIn').fadeIn();									
 			} else if (index == 12){
-                $('#p11_1').addClass('animated fadeInUp').fadeIn();
-                setTimeout(function () {
-                    $('#p11_2').addClass('animated fadeInUp').fadeIn();
-                },1000);
-				setTimeout(function () {
-                    $('#p11_3').addClass('animated fadeInUp').fadeIn();
-                },1800);
-				setTimeout(function () {
-                    $('#p11_4').addClass('animated fadeIn').fadeIn();
-                },2900);
-				setTimeout(function () {
-                    $('#p11_5').addClass('animated fadeIn').fadeIn();
-                },3900);
-         
+                $('#p11_1').addClass('animated vanishIn').fadeIn();
             } else if (index == 13){
                 $('#p12_1').addClass('animated fadeInUp').fadeIn();
                 setTimeout(function () {
                     $('#p12_2').addClass('animated fadeInUp').fadeIn();
-                },1000);
-				setTimeout(function () {
-                    $('#p12_3').addClass('animated fadeInUp').fadeIn();
-                },1700);
-				setTimeout(function () {
-                    $('#p12_4').addClass('animated fadeInUp').fadeIn();
-                },3400);
-				setTimeout(function () {
-                    $('#p12_5').addClass('animated fadeIn').fadeIn();
-                },4000);
-													
+                },1000);											
 		    } else if (index == 14){
                 $('#p13_1').addClass('animated fadeInUp').fadeIn();
                 setTimeout(function () {
@@ -236,117 +124,7 @@ $(document).ready(function() {
 				setTimeout(function () {
                     $('#p13_5').addClass('animated fadeInUp').fadeIn();
                 },1600);
-
-
-		    } else if (index == 18){
-                $('#p14_1').addClass('animated fadeInUp').fadeIn();
-                setTimeout(function () {
-                    $('#p14_2').addClass('animated fadeInUp').fadeIn();
-                },1000);
-				setTimeout(function () {
-                    $('#p14_3').addClass('animated fadeInUp').fadeIn();
-                },1200);
-				setTimeout(function () {
-                    $('#p14_4').addClass('animated fadeInUp').fadeIn();
-                },1400);
-				setTimeout(function () {
-                    $('#p14_5').addClass('animated fadeInUp').fadeIn();
-                },1600);
-
-		    } else if (index == 19){
-                $('#p15_1').addClass('animated fadeInUp').fadeIn();
-                setTimeout(function () {
-                    $('#p15_2').addClass('animated fadeInUp').fadeIn();
-                },1000);
-				setTimeout(function () {
-                    $('#p15_3').addClass('animated fadeInUp').fadeIn();
-                },1200);
-				setTimeout(function () {
-                    $('#p15_4').addClass('animated fadeInUp').fadeIn();
-                },1400);
-				setTimeout(function () {
-                    $('#p15_5').addClass('animated fadeInUp').fadeIn();
-                },1600);
-
-		    } else if (index == 20){
-                $('#p16_1').addClass('animated fadeInDown').fadeIn();
-                setTimeout(function () {
-                    $('#p16_2').addClass('animated fadeInUp').fadeIn();
-                },1000);
-				setTimeout(function () {
-                    $('#p16_3').addClass('animated fadeInUp').fadeIn();
-                },1200);
-				setTimeout(function () {
-                    $('#p16_4').addClass('animated fadeInUp').fadeIn();
-                },1400);
-				setTimeout(function () {
-                    $('#p16_5').addClass('animated fadeInUp').fadeIn();
-                },1600);
-
-		    } else if (index == 21){
-                $('#p17_1').addClass('animated fadeInDown').fadeIn();
-                setTimeout(function () {
-                    $('#p17_2').addClass('animated fadeInUp').fadeIn();
-                },1000);
-				setTimeout(function () {
-                    $('#p17_3').addClass('animated fadeInUp').fadeIn();
-                },1200);
-				setTimeout(function () {
-                    $('#p17_4').addClass('animated fadeInUp').fadeIn();
-                },1400);
-				setTimeout(function () {
-                    $('#p17_5').addClass('animated fadeInUp').fadeIn();
-                },1600);
-
-		    } else if (index == 22){
-                $('#p18_1').addClass('animated fadeInDown').fadeIn();
-                setTimeout(function () {
-                    $('#p18_2').addClass('animated fadeInUp').fadeIn();
-                },1000);
-				setTimeout(function () {
-                    $('#p18_3').addClass('animated vanishIn').fadeIn();
-                },1800);
-            } else if (index == 23){
-                $('#p19_1').addClass('animated fadeInDown').fadeIn();
-                setTimeout(function () {
-                    $('#p19_2').addClass('animated fadeInUp').fadeIn();
-                },1000);
-                setTimeout(function () {
-                    $('#p19_3').addClass('animated vanishIn').fadeIn();
-                },1800);
-            } else if (index == 24){
-                $('#p20_1').addClass('animated fadeInDown').fadeIn();
-                setTimeout(function () {
-                    $('#p20_2').addClass('animated fadeInUp').fadeIn();
-                },1000);
-                setTimeout(function () {
-                    $('#p20_3').addClass('animated vanishIn').fadeIn();
-                },1800);
-            } else if (index == 25){
-                $('#p21_1').addClass('animated fadeInDown').fadeIn();
-                setTimeout(function () {
-                    $('#p18_2').addClass('animated fadeInUp').fadeIn();
-                },1000);
-                setTimeout(function () {
-                    $('#p18_3').addClass('animated vanishIn').fadeIn();
-                },1800);
-            } else if (index == 26){
-                $('#p22_1').addClass('animated fadeInDown').fadeIn();
-                setTimeout(function () {
-                    $('#p22_2').addClass('animated fadeInUp').fadeIn();
-                },300);
-                setTimeout(function () {
-                    $('#p18_3').addClass('animated vanishIn').fadeIn();
-                },1800);
-            } else if (index == 27){
-                $('#p23_1').addClass('animated vanishIn').fadeIn();
-                setTimeout(function () {
-                    $('#p18_2').addClass('animated fadeInUp').fadeIn();
-                },1000);
-                setTimeout(function () {
-                    $('#p18_3').addClass('animated vanishIn').fadeIn();
-                },1800);
-            }
+		    } 
         }
     });
 

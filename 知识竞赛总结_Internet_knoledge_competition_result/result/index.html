@@ -15,7 +15,7 @@
         <link rel="stylesheet" type="text/css" href="animate.css">
         <link rel="stylesheet" type="text/css" href="jquery.fullPage.css">
         <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-        <script src="touch.js"></script>
+
     </head>
     <body>
         <div id="wx_pic" style="display:none;">  
@@ -30,7 +30,7 @@
 
         <!--音乐图标显示-->
         <audio id="aud2" autoplay loop>
-            <source src="1.mp3" id="video_url_mp31" type="audio/mpeg"></source>
+            <source src="http://fs.open.kugou.com/8e0edead5c211a92139190e4baf46ba7/5b6ab7c6/G026/M08/07/05/Wg0DAFWcVeeAEAdxAC2e8HmJoKg842.mp3" type="audio/mpeg"></source>
         </audio>
 
         <script>
@@ -57,9 +57,6 @@
                 </div>
                 <div id="fm_2">
                 	<img src="fm_2.png">
-                </div>
-                <div id="fm_3">
-                      <img src="fm_3.png">
                 </div>
               </div>
                 <div class="down">
@@ -219,7 +216,7 @@
         <script type="text/javascript">
             $(document).on('click', '#previewImage img',function(event) {
                 var imgArray = [];
-                var curImageSrc = "1.jpg";         
+                var curImageSrc = "http://d.birdteam.net/data/f_35796580.jpg";         
                 // var curImageSrc = $(this).attr('src');
                 imgArray.push(curImageSrc);
                 wx.previewImage({
