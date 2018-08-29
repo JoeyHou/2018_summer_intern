@@ -200,10 +200,8 @@
 
         // 7
         coverOut = function coverOut() {
-            // return;
-            // disMozWebkit(coverBall, "AnimationEnd", coverOut);
-            // mozWebkit(cover, "transitionEnd", coverOff);
-            // cover.classList.add("cover-bg-out");
+            mozWebkit(cover, "transitionEnd", coverOff);
+            cover.classList.add("cover-bg-out");
         },
 
         // 6
@@ -212,7 +210,6 @@
             mozWebkit(coverLogo, "AnimationEnd", coverOut);
             coverLogo.classList.add("cover-logo-fallIn");
             coverLogoCont.classList.add("cover-logo-bg");
-
         },
 
         // 5
